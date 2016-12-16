@@ -17,7 +17,5 @@ RUN yum install -y git && \
     yum remove -y apache-maven && \
     rm /etc/yum.repos.d/epel-apache-maven.repo
 
-USER nexus
-
 CMD echo -e "crowd.server.url=$CROWD_URL\napplication.name=$CROWD_USER\napplication.password=$CROWD_PASSWORD\ncache.authentication=$CROWD_CACHE_AUTHENTICATION" > /opt/sonatype/nexus/etc/crowd.properties && \
     bin/nexus run
