@@ -1,3 +1,7 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dwolla/docker-nexus3-crowd)
+
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dwolla/docker-nexus3-crowd)
+
 # docker-nexus3-crowd
 
 Docker image that installs [nexus3-crowd-plugin](https://github.com/pingunaut/nexus3-crowd-plugin)
